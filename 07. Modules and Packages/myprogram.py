@@ -1,3 +1,8 @@
-from mymodule import myFunc
+#from mymodule import myFunc
+from MyMainPackage import someMainScript
+from MyMainPackage.SubPackage import someSubMainScript
 
-myFunc()
+#myFunc()
+
+someMainScript.Main()
+someSubMainScript.subMain()
